@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nate.nateapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SummaryActivity"
+            android:label="@string/title_activity_summary"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.nate.nateapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EducationActivity"
+            android:label="@string/title_activity_education" >
+        </activity>
+        <activity
+            android:name=".ExperienceActivity"
+            android:label="@string/title_activity_experience" >
+        </activity>
+        <activity
+            android:name=".WellesleyHSActivity"
+            android:label="@string/title_activity_wellesley_hs" >
+        </activity>
+        <activity
+            android:name=".TrinityActivity"
+            android:label="@string/title_activity_trinity" >
+        </activity>
+        <activity
+            android:name=".TheIslandSchoolActivity"
+            android:label="@string/title_activity_the_island_school" >
+        </activity>
+    </application>
+
+</manifest>

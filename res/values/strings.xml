@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ResumeApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="summary">Recent graduate of Trinity College seeking an entry-level 
+        software development position in an exciting growth company. 
+        Interested in utilizing my computer programming skills and leadership experience. 
+        At Trinity, participated in Club Soccer, A cappella Singing Group, Rally Committee,
+         Inter-Greek Leadership and New Student Orientation as Program Leader.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_summary">Summary</string>
+    <string name="title_activity_education">Education</string>
+    <string name="title_activity_experience">Experience</string>
+    <string name="title_activity_wellesley_hs">WellesleyHSActivity</string>
+    <string name="title_activity_trinity">TrinityActivity</string>
+    <string name="title_activity_the_island_school">TheIslandSchoolActivity</string>
+
+</resources>
