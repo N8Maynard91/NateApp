@@ -1,6 +1,5 @@
 package com.nate.nateapp;
 
-
 import java.util.ArrayList;
 
 import android.content.Intent;
@@ -34,29 +33,25 @@ public class EducationActivity extends ActionBarActivity {
 		list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 			@Override
-			public void onItemClick(AdapterView<?> parent, View viewClicked, int position, long id) {
+			public void onItemClick(AdapterView<?> parent, View viewClicked, int position, long id) {				
 				if (position == 0) {		//Wellesley Highschool
-					//Intent intent = new Intent(this, WellesleyHSActivity.class);
-					//startActivity(intent);
-					setContentView(R.layout.wellesley_highschool); //try to figure out fragments
+
+					setContentView(R.layout.wellesley_highschool); 
 				}
 				
 				else if (position == 1) {	//The Island School
-					//Intent intent = new Intent(this, TheIslandSchoolActivity.class);
-					//startActivity(intent);
+
 					setContentView(R.layout.the_island_school);
 					
 				}
 				
 				else if (position == 2) {	//Trinity College
-					//Intent intent = new Intent(this, TrinityActivity.class);
-					//startActivity(intent);
 					setContentView(R.layout.trinity_college);
 					
 				}
 				
 				
-				/*
+				/*		testing method
 				 * public void onItemClick(AdapterView[[?]] paret, View viewClicked, int position, long id) {
 				 * TextView textView = (TextView) viewClicked;
 				 * String message = "You clicked # " + position + ", which is string: " + textView.getText().toString();

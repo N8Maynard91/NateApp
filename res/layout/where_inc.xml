@@ -9,56 +9,34 @@
         android:layout_width="221dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        android:src="@drawable/wellesley_bw" />
+        android:src="@drawable/where_full" />
     
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:layout_gravity="center"
-        android:text="Graduated 2010" />
+        android:text="Summer 2011" />
     
     <TextView
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
-        	android:textStyle="bold"
-        	android:text="Sports:" />
+        	android:textStyle="italic|bold"
+        	android:text="Marketing Intern" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-Swimming team" />
-    
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-Crew (CRI)" />
-    
-    <TextView
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
-        	android:textStyle="bold"
-        	android:text="Music:" />
-    
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-Rice Street Singers" />
-    
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-Acapella Anonymous" />
-    
-    <TextView
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
-        	android:textStyle="bold"
-        	android:text="Clubs:" />
-    
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="-Green Team Recycling" />
+        android:text="-Researched and compiled market data for new and current clients" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Worked with developers and gained experience with Ruby on Rails" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Facilitated problemsolving between marketing department and software engineers" />
+    
 </LinearLayout>

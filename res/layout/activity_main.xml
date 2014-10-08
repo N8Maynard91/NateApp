@@ -7,38 +7,42 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.nate.nateapp.MainActivity" >
-
     
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
-        android:gravity="center_vertical" >
+        android:gravity="center_vertical"
+ 		android:weightSum="1.0" >
 
         <Button
             android:id="@+id/summary_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/title_activity_summary"
-            android:onClick="loadSummary" />
+            android:onClick="loadSummary"
+  			android:layout_weight=".25" />
         <Button
             android:id="@+id/education_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/title_activity_education"
-            android:onClick="loadEducation"  />
+            android:onClick="loadEducation"
+  			android:layout_weight=".25"   />
         <Button
             android:id="@+id/experience_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/title_activity_experience"
-            android:onClick="loadExperience" />
+            android:onClick="loadExperience" 
+  			android:layout_weight=".25" />
         <Button
             android:id="@+id/other_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Other"
-            android:onClick="loadOther"  />
+            android:onClick="loadOther"
+  			android:layout_weight=".25"   />
         
     </LinearLayout>
 

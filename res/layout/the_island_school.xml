@@ -7,25 +7,66 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal" >
+        android:orientation="vertical" >
 
         <ImageView
             android:id="@+id/imageView1"
             android:layout_width="186dp"
             android:layout_height="96dp"
-            android:src="@drawable/is" />
+            android:src="@drawable/is" 
+        	android:layout_gravity="center"/>
+        <TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textStyle="bold"
+        	android:layout_gravity="center"
+        	android:text="Graduated Spring 2009" />
+        
+        <TextView
+        	android:id="@+id/textView1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textStyle="bold"
+        	android:text="Classes:" />
+
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Celestial Navigation" />
+
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Conservation and Development" />
+    	
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Ecology" />
+
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Humanities" />
+
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="SCUBA" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="125dp"
             android:layout_height="125dp"
-            android:src="@drawable/cef" />
+            android:src="@drawable/cef" 
+        	android:layout_gravity="center"/>
+        
+        
+        <TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Researched the potential habitats of invasive species LionFish" />
+        
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
 
 </LinearLayout>

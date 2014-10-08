@@ -6,15 +6,18 @@
     <string name="action_settings">Settings</string>
     <string name="summary">Recent graduate of Trinity College seeking an entry-level 
         software development position in an exciting growth company. 
-        Interested in utilizing my computer programming skills and leadership experience. 
-        At Trinity, participated in Club Soccer, A cappella Singing Group, Rally Committee,
-         Inter-Greek Leadership and New Student Orientation as Program Leader.</string>
+        Interested in utilizing my computer programming skills and leadership experience.</string>
+    <string name="isinfo">
+    </string>
     <string name="action_settings">Settings</string>
+    
+    
     <string name="title_activity_summary">Summary</string>
     <string name="title_activity_education">Education</string>
     <string name="title_activity_experience">Experience</string>
     <string name="title_activity_wellesley_hs">WellesleyHSActivity</string>
     <string name="title_activity_trinity">TrinityActivity</string>
     <string name="title_activity_the_island_school">TheIslandSchoolActivity</string>
+    
 
 </resources>

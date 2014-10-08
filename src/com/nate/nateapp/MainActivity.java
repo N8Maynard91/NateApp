@@ -15,26 +15,6 @@ public class MainActivity extends ActionBarActivity {
 		setContentView(R.layout.activity_main);
 	}
 	
-	public void loadSummary(View view) {
-		Intent intent = new Intent(this, SummaryActivity.class);
-		startActivity(intent);
-	}
-	
-	public void loadEducation(View view) {
-		Intent intent = new Intent(this, EducationActivity.class);
-		startActivity(intent);
-	}
-	
-	public void loadExperience(View view) {
-		Intent intent = new Intent(this, ExperienceActivity.class);
-		startActivity(intent);
-	}
-	
-	public void loadOther(View view) {
-		Intent intent = new Intent(this, SummaryActivity.class);
-		startActivity(intent);
-	}
-	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
@@ -53,4 +33,24 @@ public class MainActivity extends ActionBarActivity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
+
+	public void loadSummary(View view) {
+		Intent intent = new Intent(this, SummaryActivity.class);
+		startActivity(intent);
+	}
+	
+	public void loadEducation(View view) {
+		Intent intent = new Intent(this, EducationActivity.class);
+		startActivity(intent);
+	}
+	
+	public void loadExperience(View view) {
+		Intent intent = new Intent(this, ExperienceActivity.class);
+		startActivity(intent);
+	}
+	
+	public void loadOther(View view) {
+		Intent intent = new Intent(this, OtherActivity.class);
+		startActivity(intent);
+	} 
 }

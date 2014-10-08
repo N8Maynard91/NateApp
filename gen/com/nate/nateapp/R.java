@@ -1223,14 +1223,15 @@ containing a value of this type.
         public static final int activity_experience=0x7f030019;
         public static final int activity_main=0x7f03001a;
         public static final int activity_summary=0x7f03001b;
-        public static final int activity_the_island_school=0x7f03001c;
-        public static final int activity_trinity=0x7f03001d;
-        public static final int activity_wellesley_hs=0x7f03001e;
-        public static final int school=0x7f03001f;
+        public static final int alfredo_martinez_events=0x7f03001c;
+        public static final int madison_country_club=0x7f03001d;
+        public static final int school=0x7f03001e;
+        public static final int shelter_harbour_golf_club=0x7f03001f;
         public static final int support_simple_spinner_dropdown_item=0x7f030020;
         public static final int the_island_school=0x7f030021;
         public static final int trinity_college=0x7f030022;
         public static final int wellesley_highschool=0x7f030023;
+        public static final int where_inc=0x7f030024;
     }
     public static final class menu {
         public static final int education=0x7f0c0000;
@@ -1285,13 +1286,14 @@ containing a value of this type.
         public static final int action_settings=0x7f0a000f;
         public static final int app_name=0x7f0a000d;
         public static final int hello_world=0x7f0a000e;
+        public static final int isinfo=0x7f0a0011;
         public static final int summary=0x7f0a0010;
-        public static final int title_activity_education=0x7f0a0012;
-        public static final int title_activity_experience=0x7f0a0013;
-        public static final int title_activity_summary=0x7f0a0011;
-        public static final int title_activity_the_island_school=0x7f0a0016;
-        public static final int title_activity_trinity=0x7f0a0015;
-        public static final int title_activity_wellesley_hs=0x7f0a0014;
+        public static final int title_activity_education=0x7f0a0013;
+        public static final int title_activity_experience=0x7f0a0014;
+        public static final int title_activity_summary=0x7f0a0012;
+        public static final int title_activity_the_island_school=0x7f0a0017;
+        public static final int title_activity_trinity=0x7f0a0016;
+        public static final int title_activity_wellesley_hs=0x7f0a0015;
     }
     public static final class style {
         /** 
