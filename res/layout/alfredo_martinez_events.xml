@@ -19,14 +19,20 @@
         android:text="Summer 2012" />
     
     <TextView
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
-        	android:textStyle="italic|bold"
-        	android:text="Event promotion" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promotions Assistant"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Promoted and organized parties and events at a variety of social venues" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-Orgainzed social events for many kids in abroad programs" />
+        android:text="-Advertised to peer abroad students from multiple colleges" />
     
 </LinearLayout>

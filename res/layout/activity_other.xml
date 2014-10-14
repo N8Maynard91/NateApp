@@ -19,21 +19,27 @@
         	android:text="Certifications" />
     	
     	<TextView
-        	android:id="@+id/textView1"
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
-        	android:text="-SCUBA Advanced Open Water Diver" />
-    	
-    	<TextView
-        	android:id="@+id/textView1"
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
         	android:text="-CPR" />
     	
     	<TextView
-        	android:id="@+id/textView1"
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
         	android:text="-Wilderness First Aid" />
+
+    	<TextView
+    	    android:id="@+id/textView1"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="-SCUBA Advanced Open Water Diver" />
+
+    	<ImageView
+    	    android:id="@+id/imageView2"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_gravity="center"
+    	    android:adjustViewBounds="true"
+    	    android:src="@drawable/scuba" />
     	
 </LinearLayout>

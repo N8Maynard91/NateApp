@@ -29,5 +29,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="-Coordinated special events and daily operations for 300+ member" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Setting up and taking down golf tournaments and other events" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-Maintenance of golf carts and errands" />
     
 </LinearLayout>
