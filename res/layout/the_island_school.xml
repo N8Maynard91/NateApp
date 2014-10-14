@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
@@ -61,12 +61,18 @@
             android:src="@drawable/cef" 
         	android:layout_gravity="center"/>
         
-        
         <TextView
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
-        	android:text="Researched the potential habitats of invasive species LionFish" />
+        	android:text="Researched the potential habitats of invasive species LionFish by testing their reaction to increased water temperature" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lionfish_research"
+        	android:adjustViewBounds="true" />
         
     </LinearLayout>
 
-</LinearLayout>
+</ScrollView>

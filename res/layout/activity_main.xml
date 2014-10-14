@@ -11,31 +11,46 @@
 
         <Button
             android:id="@+id/summary_button"
+            style="?android:attr/borderlessButtonStyle"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/title_activity_summary"
+            android:layout_weight=".25"
+            android:background="@android:color/holo_blue_bright"
             android:onClick="loadSummary"
-  			android:layout_weight=".25" />
+            android:text="@string/title_activity_summary"
+            android:textSize="@dimen/abc_action_bar_default_height" />
+
         <Button
             android:id="@+id/education_button"
+            style="?android:attr/borderlessButtonStyle"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/title_activity_education"
+            android:layout_weight=".25"
+            android:background="@android:color/holo_green_light"
             android:onClick="loadEducation"
-  			android:layout_weight=".25"   />
+            android:text="@string/title_activity_education"
+            android:textSize="@dimen/abc_action_bar_default_height" />
+
         <Button
             android:id="@+id/experience_button"
+            style="?android:attr/borderlessButtonStyle"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_weight=".25"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="loadExperience"
             android:text="@string/title_activity_experience"
-            android:onClick="loadExperience" 
-  			android:layout_weight=".25" />
+            android:textSize="@dimen/abc_action_bar_default_height" />
+
         <Button
             android:id="@+id/other_button"
+            style="?android:attr/borderlessButtonStyle"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Other"
+            android:layout_weight=".25"
+            android:background="@android:color/holo_red_light"
             android:onClick="loadOther"
-  			android:layout_weight=".25"   />
+            android:text="Other"
+            android:textSize="@dimen/abc_action_bar_default_height" />
         
 </LinearLayout>
