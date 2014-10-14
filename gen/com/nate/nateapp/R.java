@@ -1090,18 +1090,19 @@ containing a value of this type.
         public static final int nsm=0x7f020061;
         public static final int nsmicon=0x7f020062;
         public static final int questleader=0x7f020063;
-        public static final int ricestreet=0x7f020064;
-        public static final int scuba=0x7f020065;
-        public static final int shgc=0x7f020066;
-        public static final int swimming=0x7f020067;
-        public static final int trinity_bw=0x7f020068;
-        public static final int trinity_color=0x7f020069;
-        public static final int trinity_round=0x7f02006a;
-        public static final int wellesley_bw=0x7f02006b;
-        public static final int wellesley_ma=0x7f02006c;
-        public static final int where_alt=0x7f02006d;
-        public static final int where_full=0x7f02006e;
-        public static final int where_small=0x7f02006f;
+        public static final int rallycomittie=0x7f020064;
+        public static final int ricestreet=0x7f020065;
+        public static final int scuba=0x7f020066;
+        public static final int shgc=0x7f020067;
+        public static final int swimming=0x7f020068;
+        public static final int trinity_bw=0x7f020069;
+        public static final int trinity_color=0x7f02006a;
+        public static final int trinity_round=0x7f02006b;
+        public static final int wellesley_bw=0x7f02006c;
+        public static final int wellesley_ma=0x7f02006d;
+        public static final int where_alt=0x7f02006e;
+        public static final int where_full=0x7f02006f;
+        public static final int where_small=0x7f020070;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
