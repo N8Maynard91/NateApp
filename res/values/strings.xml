@@ -13,6 +13,7 @@
     
     
     <string name="title_activity_summary">Summary</string>
+    <string name="title_activity_other">Other Information</string>
     <string name="title_activity_education">Education</string>
     <string name="title_activity_experience">Experience</string>
     <string name="title_activity_wellesley_hs">WellesleyHSActivity</string>
